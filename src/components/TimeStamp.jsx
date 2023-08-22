@@ -1,8 +1,7 @@
-const Timestamp = ({ time }) => {
-    return (
-        <span className="timestamp">{time}</span>
+function Timestamp (props){
+    return(
+        <span className="timestamp">{props.time} </span>
     )
-  }
-  
-  export default Timestamp
-  
+}
+
+export default Timestamp
